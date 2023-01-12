@@ -35,11 +35,16 @@ function addTask(e) {
 //     task.parentElement.classList.add("fadeOut");
 //     setTimeout(function(){ 
 //         task.parentElement.remove();
+//         const audio = document.getElementById('audio');
+//         audio.play();
 //     }, 500);
 // }
+
 function removeTask(i) {
     tasks.splice(i, 1);
     renderTasks();
+    const audio = document.getElementById('audio');
+    audio.play();
     localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
