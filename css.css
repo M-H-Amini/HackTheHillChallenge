@@ -1,5 +1,6 @@
 body {
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
+    background-color: black;
     font-family: Arial, sans-serif;
     color: #333;
   }
@@ -17,12 +18,16 @@ body {
   
   h1 {
     text-align: center;
+    color: white;
     margin-top: 40px;
   }
   
   form {
     text-align: center;
     margin-top: 40px;
+    /* Make it bigger */
+    font-size: larger;
+    zoom: 1.5;
   }
   
   form input {
@@ -65,16 +70,41 @@ body {
     background-color: #ddd;
     border-radius: 8px;
     position: relative;
+    /* Make it cover a small area in the middle */
+    background-image: linear-gradient(to right, transparent 0%, transparent 45%, rgba(0, 0, 0, 0.1) 50%, transparent 55%, transparent 100%);
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  #clear-tasks{
+    /* Make it to the center of the page */
+    margin-left: 20%;;
+
   }
   
   ul#task-list li button {
     position: absolute;
-    top: 8px;
+    top: 6px;
     right: 8px;
     background-color: #f44336;
     color: white;
     border: none;
-    border-radius: 50%;
+    border-radius: 30%;
     padding: 8px;
     cursor: pointer;
-  
+    zoom:0.7;
+  }
+
+.task-box {
+    width: 40%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 2px 6px
+}
+
+header{
+    zoom: 4;
+}

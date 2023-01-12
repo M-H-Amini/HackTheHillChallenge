@@ -4,16 +4,17 @@
   <title>My To-Do List</title>
   <link rel="icon" href="favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css.css">
+  <link href="emoji-picker.css" rel="stylesheet">
+  <link href="css.css" rel="stylesheet">
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Logo" height="150px">
+    <img src="logo.png" alt="Logo" height="350px">
   </header>
   <main>
-    <h1>MHA To-Do List</h1>
     <form>
       <input type="text" id="new-task" placeholder="New task">
+      <!-- <button type="button" id="emoji-button"></button> -->
       <button type="submit">Add</button>
     </form>
     <ul id="task-list">
@@ -21,6 +22,7 @@
     </ul>
     <button id="clear-tasks">Clear All</button>
   </main>
-<script src="script.js"></script>
+  <script type="module" src="emoji-picker.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
