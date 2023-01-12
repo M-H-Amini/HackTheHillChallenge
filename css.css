@@ -1,0 +1,70 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header img {
+    height: 80px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  form {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  form input {
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+  }
+  
+  form button {
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul#task-list {
+    list-style: none;
+    margin-top: 40px;
+    padding: 0;
+  }
+  
+  ul#task-list li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #ddd;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  ul#task-list li button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+  
