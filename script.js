@@ -31,6 +31,12 @@ function addTask(e) {
 }
 
 // Remove task function
+// function removeTask(task) {
+//     task.parentElement.classList.add("fadeOut");
+//     setTimeout(function(){ 
+//         task.parentElement.remove();
+//     }, 500);
+// }
 function removeTask(i) {
     tasks.splice(i, 1);
     renderTasks();
